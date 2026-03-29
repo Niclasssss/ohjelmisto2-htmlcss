@@ -20,7 +20,7 @@ header {
 
 main {
     text-align: center;
-    background-image: url(kuvat/bg.webp);
+    background-image: url(../kuvat/bg.webp);
     margin: 0;
     padding: 7rem;
     height: 40rem;

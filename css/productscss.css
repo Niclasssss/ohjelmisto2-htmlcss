@@ -4,9 +4,19 @@ html {
 }
 
 .container {
-    width: 60%;
+    width: 80%;
     margin: auto;
-    text-align: left;
+}
+
+.container2 {
+    display: flex;
+    gap: 1rem;
+}
+
+figure {
+    flex: 1;
+    background-color: black;
+    padding: 1rem;
 }
 
 header {
@@ -19,35 +29,23 @@ header {
     height: 5rem;
 }
 
-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-image: url(kuvat/bg.webp);
-    margin: 0;
-    padding: 0;
-    height: 40rem;
-}
-
-.tekstit {
-    text-align: left;
-    padding: 1rem;
-}
-
 .logo {
     height: 100%;
     width: auto;
+}
+
+main {
+    text-align: center;
+    background-image: url(../kuvat/bg.webp);
+    margin: 0;
+    padding: 0;
+    height: 50rem;
 }
 
 nav {
     height: 100%;
     display: flex;
     align-items: stretch;
-}
-
-figure {
-    width: 40%;
-    margin-left: auto;
 }
 
 ul {
@@ -71,18 +69,24 @@ li a:hover {
     background-color: teal;
 }
 
-
-.map {
-    width: 25rem;
-    height: 20rem;
-    padding: 0;
+.paakuva {
+    width: 90%;
+    height: 40%;
 }
 
-h1 {
-    color: white;
-    margin: 0;
+.alakuva {
+    width: 50%;
+    height: 50%;
 }
 
 p {
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+h2 {
     color: white;
 }
