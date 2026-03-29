@@ -36,7 +36,7 @@ header {
 
 main {
     text-align: center;
-    background-image: url(../kuvat/bg.jpg);
+    background-image: url("../kuvat/bg.jpg");
     margin: 0;
     padding: 0;
     height: 50rem;

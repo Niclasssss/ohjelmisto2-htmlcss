@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-image: url(../kuvat/bg.jpg);
+    background-image: url("../kuvat/bg.jpg");
     margin: 0;
     padding: 0;
     height: 40rem;
