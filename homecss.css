@@ -20,7 +20,7 @@ header {
 
 main {
     text-align: center;
-    background-image: url(bg.webp);
+    background-image: url(kuvat/bg.webp);
     margin: 0;
     padding: 7rem;
     height: 40rem;
@@ -59,13 +59,14 @@ li a:hover {
 }
 
 img {
-    width: 100%;
+    width: 75%;
     height: 35rem;
 }
 
 h1 {
     color: white;
     margin: 0;
+    padding: 1rem;
 }
 
 p {

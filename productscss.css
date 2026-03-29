@@ -1,0 +1,92 @@
+html {
+    font-family: Verdana, sans-serif;
+    font-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container2 {
+    display: flex;
+    gap: 1rem;
+}
+
+figure {
+    flex: 1;
+    background-color: black;
+    padding: 1rem;
+}
+
+header {
+    background-color: #433e3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+}
+
+main {
+    text-align: center;
+    background-image: url(kuvat/bg.webp);
+    margin: 0;
+    padding: 0;
+    height: 50rem;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+}
+
+ul li a {
+    color: darkred;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover {
+    background-color: teal;
+}
+
+.paakuva {
+    width: 90%;
+    height: 40%;
+}
+
+.alakuva {
+    width: 50%;
+    height: 50%;
+}
+
+p {
+    color: white;
+}
+
+figcaption {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
