@@ -1,5 +1,5 @@
 html {
-    font-family: Verdana, sans-serif;
+    font-family: Roboto, sans-serif;
     font-color: white;
 }
 
@@ -9,7 +9,7 @@ html {
 }
 
 header {
-    background-color: #433e3e;
+    background-color: #190e0e;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +48,7 @@ ul {
 }
 
 ul li a {
-    color: darkred;
+    color: #ffffff;
     text-decoration: none;
     padding: 14px 16px;
     display: block;
