@@ -81,10 +81,12 @@ li a:hover {
 h1 {
     color: white;
     margin: 0;
-    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%)
+    background-color: rgba(0, 0, 0, 70%);
+    padding: 1rem;
 }
 
 p {
     color: white;
-    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%)
+    background-color: rgba(0, 0, 0, 70%);
+    padding: 1rem;
 }
