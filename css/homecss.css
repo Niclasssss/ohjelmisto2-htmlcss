@@ -67,8 +67,10 @@ h1 {
     color: white;
     margin: 0;
     padding: 1rem;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%)
 }
 
 p {
     color: white;
+    text-shadow: 0px 1px 2px rgb(0 0 0 / 80%)
 }
