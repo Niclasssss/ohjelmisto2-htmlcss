@@ -60,7 +60,9 @@ li a:hover {
 
 img {
     width: 75%;
-    height: 35rem;
+    height: auto;
+    max-height: 35rem;
+    object-fit: contain;
 }
 
 h1 {

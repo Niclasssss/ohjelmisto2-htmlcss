@@ -74,7 +74,9 @@ li a:hover {
 
 .map {
     width: 25rem;
-    height: 20rem;
+    height: auto;
+    max-height: 20rem;
+    object-fit: contain;
     padding: 0;
 }
 

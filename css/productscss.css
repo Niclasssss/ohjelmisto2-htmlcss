@@ -71,12 +71,16 @@ li a:hover {
 
 .paakuva {
     width: 90%;
-    height: 40%;
+    height: auto;
+    max-height: 20rem;
+    object-fit: contain;
 }
 
 .alakuva {
     width: 50%;
-    height: 50%;
+    height: auto;
+    max-height: 40rem;
+    object-fit: contain;
 }
 
 p {
